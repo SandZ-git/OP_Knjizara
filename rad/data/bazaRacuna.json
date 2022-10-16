@@ -1,0 +1,56 @@
+[
+  {
+    "radnja": "Radnja Vulkan",
+    "adresa": "Zaplanjska 32",
+    "datum": "16. 10. 2022.",
+    "kasir": "Petar Petrovic",
+    "transakcija": 72973,
+    "stavke": [
+      {
+        "knjiga": {
+          "sifra": "111",
+          "naziv": "Silmarilion",
+          "autor": "Dz. R. R. Tolkin",
+          "izdavac": "Publik Praktikum",
+          "zanr": "Epska fantastika",
+          "ocena": 5.0,
+          "cena": 1199.0
+        },
+        "kolicina": 1
+      }
+    ]
+  },
+  {
+    "radnja": "Radnja Vulkan",
+    "adresa": "Zaplanjska 32",
+    "datum": "16. 10. 2022.",
+    "kasir": "Petar Petrovic",
+    "transakcija": 38902,
+    "stavke": [
+      {
+        "knjiga": {
+          "sifra": "111",
+          "naziv": "Silmarilion",
+          "autor": "Dz. R. R. Tolkin",
+          "izdavac": "Publik Praktikum",
+          "zanr": "Epska fantastika",
+          "ocena": 5.0,
+          "cena": 1199.0
+        },
+        "kolicina": 2
+      },
+      {
+        "knjiga": {
+          "sifra": "112",
+          "naziv": "Gospodar prstenova - Druzina prstena",
+          "autor": "Dz. R. R. Tolkin",
+          "izdavac": "Publik Praktikum",
+          "zanr": "Epska fantastika",
+          "ocena": 5.0,
+          "cena": 1670.0
+        },
+        "kolicina": 1
+      }
+    ]
+  }
+]
