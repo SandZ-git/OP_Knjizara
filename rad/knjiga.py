@@ -25,9 +25,20 @@ def inputKnjiga():
     autor = str(input('Unesite autora nove knjige: '))
     izdavac = str(input('Unesite izdavaca nove knjige: '))
     zanr = str(input('Unesite zanr nove knjige: '))
-    ocena = float(input('Unesite ocenu nove knjige (1 do 5): '))
+    ocena = proveraUnosa(input('Unesite ocenu nove knjige (1 do 5): '))
+
     cena = float(input('Unesite cenu nove knjige: '))
     return Knjiga(sifra, naziv, autor, izdavac, zanr, ocena, cena)
+
+def proveraUnosa(unos):
+    vrednost_nije_tacna = True
+    while vrednost_nije_tacna:
+        if isinstance(unos, float):
+            vrednost_nije_tacna = False
+            return float(unos)
+        else:
+            input('Uneli ste nedozvoljenu vrednost! \n Pokusajte opet: ')
+
 
 def dodajUListu(lista, k):
     if not jeValidan(k):
