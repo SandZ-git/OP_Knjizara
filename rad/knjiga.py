@@ -11,6 +11,7 @@ def Knjiga(sifra, naziv, autor, izdavac, zanr, ocena, cena):
         'cena': cena,
     }
 
+
 def jeValidan(k):
     if type(k) != dict:
         return False
@@ -25,20 +26,20 @@ def inputKnjiga():
     autor = str(input('Unesite autora nove knjige: '))
     izdavac = str(input('Unesite izdavaca nove knjige: '))
     zanr = str(input('Unesite zanr nove knjige: '))
-    ocena = proveraUnosa(input('Unesite ocenu nove knjige (1 do 5): '))
-
-    cena = float(input('Unesite cenu nove knjige: '))
+    ocena = provera_float('Unesite ocenu nove knjige (1 do 5): ')
+    cena = provera_float('Unesite cenu nove knjige: ')
     return Knjiga(sifra, naziv, autor, izdavac, zanr, ocena, cena)
 
-def proveraUnosa(unos):
-    vrednost_nije_tacna = True
-    while vrednost_nije_tacna:
-        if isinstance(unos, float):
-            vrednost_nije_tacna = False
-            return float(unos)
-        else:
-            input('Uneli ste nedozvoljenu vrednost! \n Pokusajte opet: ')
-
+def provera_float(unos):
+    nastavi = True
+    while nastavi:
+        x = input(unos)
+        try:
+            x = float(x)
+            nastavi = False
+            return x
+        except ValueError:
+            print("Uneli ste nedozvoljenu vrednost!")
 
 def dodajUListu(lista, k):
     if not jeValidan(k):
@@ -92,6 +93,7 @@ def sacuvajListuKnjiga(lista, imeDatoteke):
     json.dump(lista, dat)
     dat.flush()
     dat.close()
+    print("Promene su sacuvane!")
 
 def ucitajListuKnjiga(imeDatoteke):
     try:
