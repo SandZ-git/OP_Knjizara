@@ -82,7 +82,7 @@ def prikazRacuna(imeDatoteke):
     stampaj(racun)
 
 def prodaja(imeDatoteke, lista):
-    r = Racun('Radnja Vulkan', 'Zaplanjska 32', 'Petar Petrovic')
+    r = Racun('Radnja Knjizara', 'Zaplanjska 32', 'Petar Petrovic')
     
     nastavakProdaje = True
 
