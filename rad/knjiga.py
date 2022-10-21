@@ -36,7 +36,7 @@ def provera_float(unos):
         x = input(unos)
         try:
             x = float(x)
-            nastavi - False
+            nastavi = False
             return x
         except ValueError:
             print("Uneli ste nedozvoljenu vrednost!")
