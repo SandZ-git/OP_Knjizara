@@ -16,5 +16,87 @@
     "zanr": "Epska fantastika",
     "ocena": 5.0,
     "cena": 1670.0
+  },
+  {
+    "sifra": "113",
+    "naziv": "Hari Poter i kamen mudrosti",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 647.0
+  },
+  {
+    "sifra": "114",
+    "naziv": "Hari Poter i dvorana tajni",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 719.0
+  },
+  {
+    "sifra": "115",
+    "naziv": "Hari Poter i zatvorenik iz Askabana",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 935.0
+  },
+  {
+    "sifra": "116",
+    "naziv": "Hari Poter i Vatreni pehar",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 1295.0
+  },
+  {
+    "sifra": "117",
+    "naziv": "Hari Poter i red Feniksa",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 1439.0
+  },
+  {
+    "sifra": "118",
+    "naziv": "Hari Poter i Polukrvni Princ",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 1079.0
+  },
+  {
+    "sifra": "119",
+    "naziv": "Hari Poter i Relikvije Smrti",
+    "autor": "Dz. K. Rouling",
+    "izdavac": "Carobna knjiga",
+    "zanr": "Fantastika",
+    "ocena": 5.0,
+    "cena": 1295.0
+  },
+  {
+    "sifra": "120",
+    "naziv": "Zmajeve oci",
+    "autor": "Stiven King",
+    "izdavac": "Vulkan izdavastvo",
+    "zanr": "Horor",
+    "ocena": 4.0,
+    "cena": 1079.0
+  },
+  {
+    "sifra": "121",
+    "naziv": "Uporiste",
+    "autor": "Stiven King",
+    "izdavac": "Vulkan izdavastvo",
+    "zanr": "Horor",
+    "ocena": 5.0,
+    "cena": 1433.0
   }
+
 ]
