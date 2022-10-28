@@ -69,17 +69,23 @@ def stampaj(r):
 
 def prikazRacuna(imeDatoteke):
     racuni = ucitajIzDatoteke(imeDatoteke)
-    redniBroj = int(input('Unesite redni broj racuna: '))
+    try:
+        redniBroj = int(input('Unesite redni broj racuna: '))
 
-    odgovarajuci = []
+        odgovarajuci = []
 
-    if redniBroj > len(racuni) or redniBroj < 1:
-        print('Ne postoji taj racun!')
-        return
+        if redniBroj > len(racuni) or redniBroj < 1:
+            print('Ne postoji taj racun!')
+            return
 
-    racun = racuni[redniBroj-1]
+        racun = racuni[redniBroj - 1]
 
-    stampaj(racun)
+        stampaj(racun)
+
+    except ValueError:
+        print('Niste uneli validan broj')
+
+
 
 def prodaja(imeDatoteke, lista):
     r = Racun('Radnja Knjizara', 'Zaplanjska 32', 'Petar Petrovic')
