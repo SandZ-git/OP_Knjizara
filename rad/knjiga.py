@@ -52,10 +52,12 @@ def prikaziKnjigu(k):
     print("{0:>8s} {1:39s} {2:32s} {3:32s} {4:32s} {5:1.2f} {6:10.2f}  RSD".format(k['sifra'],  k['naziv'], k['autor'], k['izdavac'], k['zanr'], k['ocena'], k['cena']))
 
 def nadjiKnjigu(lista, kljucnaRec):
+    n = 0
     for k in lista:
         if kljucnaRec.lower() in k['sifra'].lower() or kljucnaRec.lower() in k['naziv'].lower() or kljucnaRec.lower() in k['autor'].lower() or kljucnaRec.lower() in k['izdavac'].lower() or kljucnaRec.lower() in k['zanr'].lower():
             prikaziKnjigu(k)
-    else:
+            n += 1
+    if n == 0:
         print("Nema pronadjenih knjiga...")
 
 def obrisiIzListe(lista, k):
